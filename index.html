@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tea Stall webpage using multiple HTML tags">
+    <meta name="keywords" content="HTML, tea stall, webpage">
+    <meta name="author" content="Tea Stall Owner">
+    <title>Tea Time Stall</title>
+</head>
+<body background="./tea-dark-cup-wallpaper-preview.jpg" bgcolor="#2E2E2E" text="#FFFFFF" style="background-repeat: no-repeat; background-position: center;background-size: cover;background-attachment: fixed;">
+
+    <!-- Header Section -->
+    <header align="center">
+        <h1><font size="7" color="#FFD700">Welcome to Tea Time Stall</font></h1>
+        <nav>
+            <a href="#home" style="color: #FFD700;">Home</a> | 
+            <a href="#about" style="color: #FFD700;">About Us</a> | 
+            <a href="#menu" style="color: #FFD700;">Menu</a> | 
+            <a href="#contact" style="color: #FFD700;">Contact</a>
+        </nav>
+    </header>
+
+    <hr width="80%" size="3" color="#FFD700">
+
+    <!-- Main Content Section -->
+    <main>
+
+        <!-- Home Section -->
+        <section id="home">
+            <article>
+                <header>
+                    <h2><font size="6" color="#FF4500">Our Special Tea</font></h2>
+                </header>
+                <p>Welcome to the best tea stall in town! We serve a variety of fresh, hot, and delicious teas that will refresh your soul. Whether you like classic masala chai or green tea, we have it all.</p>
+                <figure align="left">
+                    <img src="./0_JS194807011.webp" alt="Tea Stall Image" width="400">
+                    <figcaption><font color="#FFD700">Figure 1: Our cozy tea stall</font></figcaption>
+                </figure>
+                <blockquote cite="https://www.example.com/quote">
+                    <font color="#FF8C00">"Tea is not just a drink, it’s a way of life!" — Anonymous</font>
+                </blockquote>
+                <p><strong>Opening Hours:</strong> 8 AM to 10 PM every day</p>
+            </article>
+        </section>
+
+        <hr width="80%" size="2" color="#FFD700">
+
+        <!-- About Us Section -->
+        <section id="about">
+            <h2><font size="5" color="#FF6347">About Us</font></h2>
+            <p>Tea Time Stall was founded in 2010 with the vision to provide the best tea experience to our customers. Our teas are made with carefully selected ingredients, ensuring every cup is perfect. We are a family-owned business that believes in great service and delicious tea.</p>
+            <ul>
+                <li><font color="#FFD700">Fresh ingredients</font></li>
+                <li><font color="#FFD700">Wide variety of teas</font></li>
+                <li><font color="#FFD700">Friendly staff</font></li>
+            </ul>
+        </section>
+
+        <hr width="80%" size="2" color="#FFD700">
+
+        <!-- Menu Section with Table -->
+        <section id="menu">
+            <h2><font size="5" color="#CD853F">Our Menu</font></h2>
+            <p>Explore our wide range of teas and snacks:</p>
+            <table border="1" cellpadding="10" cellspacing="0" width="80%" align="center">
+                <caption><font size="4" color="#FFD700">Tea and Snacks Menu</font></caption>
+                <thead>
+                    <tr bgcolor="#FF8C00">
+                        <th>Item</th>
+                        <th>Description</th>
+                        <th>Price (INR)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Masala Chai</td>
+                        <td>Classic spiced Indian tea with milk</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Green Tea</td>
+                        <td>Fresh, healthy green tea</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>Black Tea</td>
+                        <td>Strong tea brewed without milk</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Ginger Lemon Tea</td>
+                        <td>Refreshing tea with ginger and lemon</td>
+                        <td>35</td>
+                    </tr>
+                    <tr>
+                        <td>Samosa</td>
+                        <td>Crispy fried snack stuffed with spiced potatoes</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>Biscuits</td>
+                        <td>Assorted fresh biscuits</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr width="80%" size="2" color="#FFD700">
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2><font size="5" color="#B22222">Contact Us</font></h2>
+            <p>If you have any questions, feel free to reach out to us:</p>
+            <address>
+                Tea Time Stall<br>
+                123 Tea Street<br>
+                Beverage City, India<br>
+                Phone: +91-9876543210<br>
+                Email: <a href="mailto:contact@teatimstall.com" style="color: #FFD700;">contact@teatimstall.com</a>
+            </address>
+            <form action="/submit-form" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+
+    </main>
+
+    <footer align="center">
+        <p>&copy; 2024 Tea Time Stall. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
